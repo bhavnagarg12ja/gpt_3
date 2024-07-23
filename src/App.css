@@ -1,0 +1,11 @@
+/* border-box is the property in which width + padding + border = actual width of the element */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+}
